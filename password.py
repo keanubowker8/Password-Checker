@@ -15,7 +15,7 @@ def password_is_valid(password):
             raise Exception('Password cannot be empty')
 
     else:
-        raise Exception('Password has to be 8 characters long') 
+        raise Exception('Password has to be longer than 8 characters') 
         
 def password_is_ok(password):
     count = 0
